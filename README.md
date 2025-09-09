@@ -44,6 +44,7 @@ npm install
 npm run dev
 ```
 # File Structure 
+```
 ReadmeTalesFrontend/
 ├── public/
 │   └── vite.svg
@@ -60,7 +61,7 @@ ReadmeTalesFrontend/
 ├── index.html
 ├── package.json
 └── vite.config.js
-
+```
 
 # Licence 
 MIT License
