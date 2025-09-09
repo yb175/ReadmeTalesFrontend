@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FiGithub, FiZap, FiLock, FiEdit3, FiCopy } from "react-icons/fi";
+import { Link } from "react-router";
 
 const LandingPage = () => {
   // Animation variants for Framer Motion
@@ -30,8 +31,7 @@ const LandingPage = () => {
     // A simplified text content for the example
     const text = `# Awesome Project...`; 
     navigator.clipboard.writeText(text);
-    // You can replace this alert with a more modern toast notification
-    alert("Copied to clipboard!"); 
+
   };
 
   return (
@@ -68,7 +68,7 @@ const LandingPage = () => {
             variants={itemVariants}
           >
             <FiZap />
-            <span>Generate Now</span>
+            <Link to={"/readme"}><span>Generate Now</span></Link>
           </motion.a>
         </motion.section>
 
