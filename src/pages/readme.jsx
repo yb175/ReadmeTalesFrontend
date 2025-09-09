@@ -94,6 +94,7 @@ const Readme = () => {
       const res = await fetch("https://readmetalesbackend.onrender.com/generate-readme", {
         method: "POST",
         headers: { "Content-Type": "application/json", "password": import.meta.env.VITE_PASSWORD },
+        credentials: "include",
         body: JSON.stringify({ url: repoLink }),
       });
       const data = await res.json();

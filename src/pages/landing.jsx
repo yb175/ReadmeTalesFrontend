@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FiGithub, FiZap, FiLock, FiEdit3, FiCopy } from "react-icons/fi";
 import { Link } from "react-router";
+import loginWithGithub from "../functions/githublogin.js";
 
 const LandingPage = () => {
   // Animation variants for Framer Motion
@@ -68,7 +69,7 @@ const LandingPage = () => {
             variants={itemVariants}
           >
             <FiZap />
-            <Link to={"/readme"}><span>Generate Now</span></Link>
+            <span onClick={loginWithGithub}>Generate Now</span>
           </motion.a>
         </motion.section>
 
