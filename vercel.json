@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/auth/github/callback", "destination": "/index.html" }
+  ]
+}
