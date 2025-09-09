@@ -1,12 +1,67 @@
-# React + Vite
+# ReadmeTales Frontend
+This repository contains the official frontend for **ReadmeTales**, a modern web application built with **React** and **Vite**. It provides a sleek, dynamic user interface that communicates with an AI-powered backend to automatically generate stunning `README.md` files for your GitHub projects.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+➡️ **Live Demo Coming Soon!**
 
-Currently, two official plugins are available:
+## 📸 Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img width="1903" height="1073" alt="image" src="https://github.com/user-attachments/assets/3e8cc9c3-853e-4764-84e3-907c05ed115e" /># ReadmeTales Frontend 🚀
 
-## Expanding the ESLint configuration
+## ✨ Core Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🤖 **AI-Powered Generation**: Paste a public GitHub repository link and our backend analyzes the project to generate a comprehensive and well-structured README file.  
+- 🎨 **Sleek, Modern UI**: Fully responsive interface built with Tailwind CSS, smooth animations, and developer-centric aesthetic.  
+- ✍️ **Instant Markdown Output**: Clean, ready-to-use markdown displayed in a stylized code block for easy copying.  
+- 🚀 **Built with Vite + React**: Fast development experience and component-based architecture using the latest web technologies.
+
+## 🏗️ Architecture
+
+This is the client-side interface.  
+Core AI logic and README generation are handled by the backend.  
+🔗 **Backend Repository**: [ReadmeTales Backend](https://github.com/your-username/ReadmeTalesBackend)
+
+## 💻 Tech Stack
+
+- **Framework**: React  
+- **Build Tool**: Vite  
+- **Styling**: Tailwind CSS  
+- **Animations**: Framer Motion  
+- **Language**: JavaScript
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or later recommended)  
+- npm
+
+### Installation & Setup
+
+```bash
+git clone https://github.com/your-username/ReadmeTalesFrontend.git
+cd ReadmeTalesFrontend
+npm install
+npm run dev
+```
+# File Structure 
+```
+ReadmeTalesFrontend/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── pages/
+│   │   ├── landing.jsx
+│   │   └── readme.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+# Licence 
+MIT License
