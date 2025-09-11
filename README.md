@@ -5,7 +5,7 @@ This repository contains the official frontend for **ReadmeTales**, a modern web
 
 ## 📸 Screenshots
 
-<img width="1903" height="1073" alt="image" src="https://github.com/user-attachments/assets/3e8cc9c3-853e-4764-84e3-907c05ed115e" /># ReadmeTales Frontend 🚀
+<img width="1903" height="1073" alt="image" src="https://github.com/user-attachments/assets/3e8cc9c3-853e-4764-84e3-907c05ed115e" />
 
 ## ✨ Core Features
 
