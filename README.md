@@ -18,7 +18,7 @@ This repository contains the official frontend for **ReadmeTales**, a modern web
 
 This is the client-side interface.  
 Core AI logic and README generation are handled by the backend.  
-🔗 **Backend Repository**: [ReadmeTales Backend](https://github.com/your-username/ReadmeTalesBackend)
+🔗 **Backend Repository**: [ReadmeTales Backend](https://github.com/yb175/ReadmeTales)
 
 ## 💻 Tech Stack
 
